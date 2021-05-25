@@ -1,9 +1,13 @@
 pipeline{
   agent any
     stages{
-      stage('测试'){
+      stage('Test'){
         steps{
           bat 'python --version'
+        }
+      stage('develop'){
+        steps{
+          bat 'pip list'
         }
     }
 }
