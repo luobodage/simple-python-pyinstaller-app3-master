@@ -8,7 +8,7 @@ pipeline{
       stage('develop'){
         steps{
           bat 'pip list'
-          bat 'echo do you like van♂youxi!?'
+          bat 'echo do you like van♂youxi!q?'
         }
     }
 }
