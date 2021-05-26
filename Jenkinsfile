@@ -5,10 +5,6 @@ pipeline{
         steps{
           bat 'python --version'
         }
-      stage('develop'){
-        steps{
-          bat 'pip list'
-        }
     }
 }
 }
